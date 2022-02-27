@@ -19,6 +19,8 @@ I had prepared this project using the following steps.
 	1. Configure SDK: `idf.py menuconfig`
 	2. Set Component config > Bluetooth > enable BLE and Bluedroid
 
+![Demo architecture](./images/BLE2MQTT_code.jpg)
+
 ## Coding approach
 There are 4 C-code files for main application, BLE GATT handler, WiFI+MQTT connection, and GUI.
 1. **main.c** contains `app_main()` that initialize and run main loop.
