@@ -15,7 +15,7 @@
 #define WIFI_PASS      "YOUR PASSWORD"
 #define WIFI_MAXIMUM_RETRY  10
 #define MQTT_BROKER    "mqtt://broker.hivemq.com"
-#define MQTT_TOPIC     "tesa_tech_update/sensor"
+#define MQTT_TOPIC     "your_topic/sensor"
 
 /* STATIC VARIABLES */
 static int retry_num = 0;
